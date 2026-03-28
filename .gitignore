@@ -1,0 +1,44 @@
+#  Environment variables
+.env
+.env.*
+*.env
+
+#  Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+#  Virtual environment
+venv/
+env/
+ENV/
+
+#  Logs
+*.log
+audit_log.txt
+
+#  Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code / Codespaces
+.vscode/
+.devcontainer/
+
+#  Build files
+dist/
+build/
+*.egg-info/
+
+#  Secrets / API keys
+*.pem
+*.key
+
+#  FastAPI / temp
+*.sqlite3
